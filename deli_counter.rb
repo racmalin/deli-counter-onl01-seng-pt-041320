@@ -10,3 +10,16 @@ def line(array)
    puts line_order
 end
 end
+
+def take_a_number(array, string)
+  array << string
+  puts "Welcome, #{string}. You are number #{array.length} in line."
+end
+
+def now_serving
+  if array.length == 0 
+    puts "There is nobody waiting to be served!"
+  else 
+    puts "Currently: #{array.shift}."
+  end
+end  
