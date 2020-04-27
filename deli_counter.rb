@@ -9,3 +9,4 @@ def line(array)
    end
    puts line_order
 end
+end
